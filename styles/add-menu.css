@@ -1,0 +1,54 @@
+.main-section {
+
+  background-color: white;
+  display: flex;
+	flex-direction: column;
+	padding: 20px;
+	box-shadow: 0 0.4rem 3rem rgba(0,0,0,0.1), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+.main-section .title {
+  padding-bottom: 15px;
+}
+
+.main .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.main-section .title label{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.add-text{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;;
+}
+.add-text label{
+  margin: 10px 0px;
+}
+.btn-place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.add-menu {
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 5px;
+  transition: color 0.15s , background-color 0.15s;
+  transition: opacity 0.15s;
+}
+
+.add-menu:hover {
+  opacity: 0.8;
+}

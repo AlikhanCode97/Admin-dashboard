@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <title>Dashboard</title>
+</head>
+<body>
+
+  <div class="whole-page">
+    <nav class="sidebar">
+      <div class="image-text">
+        <span class="image">
+          <img src="images/images.jpg" alt="">
+        </span>
+        <div class="text">
+          Dashboard
+        </div>
+      </div>
+      <div class="js-menu-links"></div>
+    </nav>
+
+
+    <div class="main">
+      <div class="search-section">
+
+        <div class="title-part">Menu Management</div>
+        
+        <div class="search-part">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <i class='bx bx-search '></i>
+            <div class="tooltip">Search</div>    
+          </button>
+          <div class="add-menu">
+            <button class="menu-adding">Add menu</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="main-section flex-layout">
+        
+        
+        <div class="categories">
+          <div class="title">Categories</div>
+          <li class="category"><a href="">Drinks</a></li>
+          <li class="category"><a href="">Food</a></li>
+          <li class="category"><a href="">Desserts</a></li>
+          <li class="category"><a href="">Whatever</a></li>
+        </div>
+
+        <div class="menu-elements">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://kit.fontawesome.com/bbd49eb172.js" crossorigin="anonymous"></script>
+  <script src="scripts/category.js"></script>
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

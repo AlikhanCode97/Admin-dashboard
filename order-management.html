@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/order.css">
+  
+  <title>Dashboard</title>
+</head>
+<body>
+
+  <div class="whole-page">
+    <nav class="sidebar">
+      <div class="image-text">
+        <span class="image">
+          <img src="images/images.jpg" alt="">
+        </span>
+        <div class="text">
+          Dashboard
+        </div>
+      </div>
+      <div class="js-menu-links"></div>
+    </nav>
+
+
+    <div class="main">
+      <div class="search-section">
+
+        <div class="title-part">Order Management</div>
+        
+        <div class="search-part">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <i class='bx bx-search '></i>
+            <div class="tooltip">Search</div>    
+          </button>
+        </div>
+        
+      </div>
+      <div class="main-section table-layout">
+        <div class="order-elements">
+          <table>
+              <thead>
+                  <th>N</th>
+                  <th>Title</th>
+                  <th>Customer</th>
+                  <th colspan="3" style="padding-left:0;">Actions on orders</th>	
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Order - number 1</td>
+                  <td>Alikhan</td>
+                  <td><button class="button1 order-update">Update</button></td>
+                  <td><button class="button1 order-delete">Cancel</button></td>      
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Order - number 2</td>
+                  <td>Michael Jackson</td>
+                  <td><button class="button1 order-update">Update</button></td>
+                  <td><button class="button1 order-delete">Cancel</button></td>      
+                </tr>  
+                <tr>
+                  <td>3</td>
+                  <td>Order - number 3</td>
+                  <td>Zhong Cha</td>
+                  <td><button class="button1 order-update">Update</button></td>
+                  <td><button class="button1 order-delete">Cancel</button></td>      
+                </tr>    
+              </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://kit.fontawesome.com/bbd49eb172.js" crossorigin="anonymous"></script>
+  <script src="scripts/category.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
